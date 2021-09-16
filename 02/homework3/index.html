@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact form</title>
+</head>
+<body>
+    <h1>Форма регистрации</h1>
+    <form action>
+    <fieldset>
+        <legend>Ваш пол</legend>
+        <label for="position">Выберите вариант</label>
+        <br>
+        <br>
+        <select name="people" id="genius">
+            <option value="men">мужчина</option>
+            <option value="woman">женщина</option>
+        </select>
+        <br>
+        <br>
+    </fieldset>
+    <fieldset>
+            <legend>Возраст</legend>
+            <input type="radio" name="Age" id="age1" value="16-20">
+            <label for="age1">16-20</label>
+            <br>
+            <input type="radio" name="Age" id="age2" value="21-30">
+            <label for="age2">21-30</label>
+            <br>
+            <input type="radio" name="Age" id="age3" value="31-40">
+            <label for="age3">31-40</label>
+    </fieldset>
+    <fieldset>
+            <legend>Ваши данные</legend>
+            <label for="name">Полное имя</label>
+            <br>
+            <input type="text" name="regestration_login" id="name">
+            <br>
+            <label for="email">Введите email</label>
+            <br>
+            <input type="email" name ="regestration_email" id="email">
+            <br>
+            <label for="password">Создайте пароль</label>
+            <br>
+            <input type="password" name="registration_password" id="password">
+            <br>
+            <label for="passwordConfirm">Подтвердите пароль</label>
+            <br>
+            <input type="password" name="regestration_password_confirm" id="passwordConfirm">
+    </fieldset>
+    <fieldset>
+             <legend>Дата вашего визита</legend>
+             <label for="visition">Выберите дату</label>
+             <br>
+             <input type="date" name="visit" id="visition">
+             <br>
+             <br>
+             <label for="text">Пожалуйста, напишите Ваши пожелания</label>
+             <br>
+             <textarea name="checkbox" id="text"></textarea>
+    </fieldset>
+    </form>
+</body>
+</html>
