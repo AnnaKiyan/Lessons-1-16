@@ -1,0 +1,168 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+ul, li {
+    list-style: none;
+}
+
+h1 {
+    color: #fff;
+    margin-top: 22px;
+    font-family: sans-serif;
+    font-weight: 400;
+}
+
+.container {
+    width: 90%;
+    max-width: 965px;
+    margin: 0 auto;  
+}
+
+body {
+    font-family:‘Lucida Sans’, ‘Lucida Sans Regular’, ‘Lucida Grande’, ‘Lucida Sans Unicode’, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    border: 20px solid #2b81ac;
+    background-color: #3399cc;
+}
+
+.list {
+    list-style: none;
+    padding: 3px;
+    background-color: #fff;
+    font-size: 0;
+    width: 985px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 33px;
+}  
+
+.list li {
+    display: inline-block;
+    width: calc(25% - 4px);
+    height: 148px;
+    margin: 2px;
+    font-size: 24px;
+    color: #fffffb;
+    padding-top: 36px; 
+}
+
+.list li.one { 
+    width: calc(50% - 4px);
+    background-color: #3399cc49;
+}
+
+.list li.one:hover {
+    background-color: #3399cc;
+}
+
+.list li.two {
+    width: calc(25% - 4px);
+    background-color: #33cccc63;;
+} 
+
+.list li.two:hover {
+    background-color: #33cccc;
+}
+
+.list li.three {
+    width: calc(25% - 4px);
+    background-color: #99669952;
+}
+
+.list li.three:hover {
+    background-color: #996699;
+}
+
+.list li.four {
+    width: calc(25% - 4px);
+    background-color: #c247474d;
+}
+
+.list li.four:hover {
+    background-color: #c24747;
+}
+
+.list li.five {
+    width: calc(25% - 4px);
+    background-color: #e2664a56;
+}
+
+.list li.five:hover {
+    background-color: #e2674a;
+}
+
+.list li.six {
+    width: calc(25% - 4px);
+    background-color: #ffcc665b;
+}
+
+.list li.six:hover {
+    background-color: #ffcc66;
+}
+
+.list li.seven {
+    width: calc(25% - 4px);
+    background-color: #99cc9948;
+}
+
+.list li.seven:hover {
+    background-color: #99cc99;
+}
+
+.list li.eight {
+    width: calc(25% - 4px);
+    background-color: #66999956;
+}
+
+.list li.eight:hover {
+    background-color: #669999;
+}
+
+.list li.nighn {
+    width: calc(50% - 4px);
+    background-color: #cc669952;
+}
+
+.list li.nighn:hover {
+    background-color: #cc6699;
+}
+
+.list li.teen {
+    width: calc(25% - 4px);
+    background-color: #9d9e9e42;
+}
+
+.list li.teen:hover{
+    background-color: #339966;
+}
+
+.list li.eleven {
+    width: calc(100% - 4px);
+    background-color: #66669942;
+}
+
+.list li.eleven:hover {
+    background-color: #666699;
+}
+
+.temp {
+    margin-top: 20px;
+}
+
+i {
+    font-size: 45px;
+}
+
+p {
+    color: #fff;
+    font-size: 22px;
+    margin-bottom: 165px;
+}

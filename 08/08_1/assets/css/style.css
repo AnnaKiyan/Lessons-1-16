@@ -1,0 +1,161 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-family: 'PT Sans', 'Montserrat', 'Yaldevi', sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+
+h5 {
+    margin-bottom: 35px;
+    color: #898f99;
+    font-family: 'Yaldevi';
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    margin-left: -50px;
+}
+
+h1 {
+    font-size: 48px;
+    text-transform: uppercase;
+    margin-bottom: 22px;
+    color: #0ec8cb;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    letter-spacing: 5px;
+    margin-left: -56px;
+}
+
+h3 {
+    margin-bottom: 108px;
+    font-size: 18px;
+    color: #999999;
+    font-family: 'PT Sans';
+    line-height: 30px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-left: -56px;
+}
+
+.icon {
+    width: 65px;
+    height: 65px;
+    background-image: url('../images/sprite.png');
+    background-repeat: no-repeat;
+    display: inline-block;
+    overflow: hidden;
+    transform: all .5s ease;
+    margin-top: 40px;
+    border-color: transparent; 
+}
+
+.icon_anchor:hover {
+    background-position: 00 -140px; 
+}
+
+.icon_diamont { 
+    background-position: -234px 00;
+}
+
+.icon_diamont:hover {
+    background-position: -234px -140px;
+}
+
+.icon_eyeglasses {
+    background-position: -468px 00;
+}
+
+.icon_eyeglasses:hover {
+    background-position: -468px -140px;
+}
+
+.icon_monitor {
+    background-position: -703px 00;
+}
+
+.icon_monitor:hover {
+    background-position: -703px -140px;
+}
+
+.container {
+    width: 90%;
+    max-width: 940px;
+    margin: 0 auto;  
+}
+
+.feachers {
+    padding-top: 143px;  
+    padding-bottom: 135px;
+}
+
+.feature_item {
+    height: 420px;
+    display: flex;
+    justify-content: center;
+    background-color: #f7f7f7;
+    border-color: 1px solid transparent;
+    margin-left: -56px;
+    margin-top: -10px;
+}
+
+.feature_title {
+    color: #1b1b1b;
+    font-size: 22px;
+    text-transform: uppercase;
+    padding-top: 56px;
+}
+
+.feature_title_special {
+    margin-top: -30px;
+}
+
+.feature_text {
+    color: #777777;
+    font-size: 14px;
+    line-height: 22px;
+    padding-top: 36px;
+}
+
+.menu {
+    border: 1px solid #ececec;
+    border-right: 1px solid #ececec; 
+    border-left: 1px solid #ececec; 
+}
+
+.menu:hover  {
+    border: 1px solid #0ec8cb;
+    background: #0ec8cb;
+}
+
+.menu:hover p {
+    color: #fff;
+}
+
+.menu:hover h2 { 
+    color: #fff;
+}
+
+.menu:hover .icon_anchor {
+    background-position: 00 -140px;
+}
+
+.menu:hover .icon_diamont {
+    background-position: -234px -140px;
+}
+
+.menu:hover .icon_eyeglasses {
+    background-position: -468px -140px;
+}
+
+.menu:hover .icon_monitor {
+    background-position: -703px -140px;
+}
