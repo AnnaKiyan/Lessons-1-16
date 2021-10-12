@@ -1,0 +1,137 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+ul, li {
+    list-style: none;
+}
+
+body {
+    background-color: #464f54;
+    font-family: 'Proxima_nova_regular', 'FuturaPT-Heavy', 'Noto Sans Georgia', 'Playfair Display', serif;
+}
+
+.container {
+    width: 90%;
+    max-width: 1060px;
+    margin: 0 auto;  
+    display: flex;
+    justify-content: space-between;
+}
+
+.block_1 {
+    width: 100%;
+    height: min-content;
+    position: absolute;
+}
+
+label {  
+    color: #767676;
+    font-size: 15px;
+    text-transform: uppercase;
+    padding-left: 63px;
+}
+   
+.block_2 {
+    height: 185px;
+    width: 100%;
+    margin-top: 47px;
+    padding-top: 48px;
+    padding-left: 63px;
+    background-color: #181818;
+    margin-left: 325px;
+}
+
+.block_2 input {
+    outline: none;
+    border: none;
+    background-color: #181818;
+    font-family: 'Playfair Display', serif;
+    color: #fff;
+    font-size: 48px;
+    padding-left: 63px;
+}
+
+hr {
+    background-color: #303030;
+    height: 2px;
+    width: 100%;
+}
+
+.block_3 {
+    width: calc(100% - 385px);
+    height: 76px;
+    background-color: #f1b82b;
+    float: right;
+    position: relative;
+}
+
+li {
+    display: inline-block;
+    color: rgba(250, 250, 250, 0.493);
+    padding: 30px 20px;
+    font-size: 20px;
+}
+
+li:hover {
+    color: #fff;
+}
+
+legend {
+    text-transform: uppercase;
+}
+
+.block_4 {
+    background-color: #fff;
+    margin-top: 140px;
+    padding-right: 129px;
+}
+
+.block_main {
+    height: 100%;
+    background-color: #fff;
+    padding-top: 202px;
+    padding-left: 54px;
+    border-left: 2px solid #e8eced;
+    margin-left: 50px;
+}
+
+.tetle {
+    color: #b4b4b4;
+    font-size: 19.84px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: 'Proxima_nova_regular', serif;
+    font-weight: 400;
+    padding-bottom: 50px;
+}
+
+h1 {
+    color: #2a2a2a;
+    font-size: 70px;
+    text-transform: uppercase;
+    font-family: 'FuturaPT-Heavy', serif;
+    font-weight: 900;
+}
+
+.italic {
+    color: #8f8f8f;
+    font-size: 30px;
+    font-family: serif;
+    font-style: italic;
+}
+
+p {
+    color: #000;
+    font-size: 24px;
+    line-height: 30px;
+    font-family: 'Noto Sans Georgia', serif;
+    font-weight: 400;
+    margin-bottom: 36px;
+}

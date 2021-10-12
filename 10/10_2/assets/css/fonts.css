@@ -1,0 +1,36 @@
+/* playfair-display-regular - latin-ext_latin */
+@font-face {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('../fonts/playfair-display-v22-latin-ext_latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/playfair-display-v22-latin-ext_latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+
+  /* noto-sans-georgian-regular - georgian */
+@font-face {
+    font-family: 'Noto Sans Georgian';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('../fonts/noto-sans-georgian-v25-georgian-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/noto-sans-georgian-v25-georgian-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+
+  @font-face {
+    font-family: 'FuturaPT-Heavy';
+    font-style: black;
+    font-weight: 900;
+    src: local(''),
+         url('../fonts/FuturaPT-Heavy.woff') format('woff');
+  }
+
+  @font-face {
+    font-family: 'Proxima_nova_regular';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('../fonts/proxima_nova_regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/proxima_nova_regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
