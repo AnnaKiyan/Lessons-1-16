@@ -91,6 +91,7 @@ legend {
     background-color: #fff;
     margin-top: 140px;
     padding-right: 129px;
+    box-shadow: 0 0 20px 3px #181818;
 }
 
 .block_main {
